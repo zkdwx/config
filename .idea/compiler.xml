@@ -10,6 +10,7 @@
         <module name="zuul" />
         <module name="Ribbon" />
         <module name="resttemplate" />
+        <module name="feign" />
         <module name="eurekaserver" />
         <module name="consumer" />
         <module name="eurekaclient" />
@@ -23,6 +24,7 @@
       <module name="consumer" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="feign" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
