@@ -12,6 +12,8 @@
         <module name="Ribbon" />
         <module name="resttemplate" />
         <module name="feign" />
+        <module name="nativeconfigclient" />
+        <module name="nativeconfigserver" />
         <module name="eurekaserver" />
         <module name="consumer" />
         <module name="eurekaclient" />
@@ -27,6 +29,8 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="nativeconfigclient" options="-parameters" />
+      <module name="nativeconfigserver" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
